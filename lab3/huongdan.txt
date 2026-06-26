@@ -12,12 +12,18 @@ docker run -d \
   mysql:8.0
 
 
+3. Cài Extension tên là MySQL
 
-  3. Tạo bảng 
+4. Tạo bảng 
 
   CREATE TABLE records(  
     id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
     stname VARCHAR(255),
-    courses VARCHAR(255),
+    course VARCHAR(255),
     fee INT
 ) COMMENT '';
+
+
+5. Chạy lab
+cd lab3
+mvn tomcat7:run
