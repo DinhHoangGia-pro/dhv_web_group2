@@ -33,4 +33,4 @@ mvn tomcat7:run
 docker ps -a
 
 7. Chạy docker nếu chưa thay 3306
-docker run mysql_db
+docker start mysql_db
