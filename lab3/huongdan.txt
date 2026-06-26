@@ -27,3 +27,10 @@ docker run -d \
 5. Chạy lab
 cd lab3
 mvn tomcat7:run
+
+
+6. Kiểm tra docker
+docker ps -a
+
+7. Chạy docker nếu chưa thay 3306
+docker run mysql_db
